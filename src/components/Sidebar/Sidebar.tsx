@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaTags, FaChartBar, FaFileInvoice, FaUtensils } from "react-icons/fa";
 import { IoStorefrontSharp } from "react-icons/io5";
