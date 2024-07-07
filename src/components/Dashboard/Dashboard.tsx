@@ -69,7 +69,7 @@ const Dashboard: React.FC = () => {
                   </span>
                 </div>
                 {order.items.map((item, index) => (
-                  <div className="order-list-container">
+                  <div  key={index} className="order-list-container">
                     <li key={index}>{item.name}</li>
                     <span>${item.price.toFixed(2)}</span>
                   </div>
