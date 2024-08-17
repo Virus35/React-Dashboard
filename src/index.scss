@@ -24,3 +24,26 @@ body {
   border-radius: 2px;
   background: #d9d9d9;
 }
+
+button {
+  padding: 0.3em 0.7em;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  padding: 0.4em 0.5em;
+  outline: none;
+  border: 2px solid #efefef;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}

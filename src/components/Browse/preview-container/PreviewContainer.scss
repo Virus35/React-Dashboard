@@ -1,0 +1,20 @@
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 96vw;
+    margin: auto;
+    overflow: hidden;
+    .slideshow-image {
+      width: 100%;
+      height: auto;
+      transition: opacity 1s ease-in-out;
+    }
+    .slideshow-content {
+      position: absolute;
+      bottom: 0rem;
+      padding: 1em;
+      background: white;
+    }
+   
+  }
+  

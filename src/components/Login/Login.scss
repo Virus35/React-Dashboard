@@ -1,0 +1,14 @@
+.login-container {
+  background-color: white;
+  padding: 1em;
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .flex {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+}

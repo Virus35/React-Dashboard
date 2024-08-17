@@ -1,0 +1,11 @@
+.header-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: white;
+  text-align: center;
+  padding: 1em;
+  :nth-child(3) {
+    word-break: break-all;
+  }
+}

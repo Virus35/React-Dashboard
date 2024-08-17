@@ -1,0 +1,38 @@
+.movie-categories {
+  background: white;
+  padding: 0.5em 1em;
+  margin: 2rem 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  .category {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  ul {
+    .category {
+      min-width: 25%;
+      padding: 0.5em;
+      height: 100%;
+      border: 1px solid #efefef;
+      padding-bottom: 1em;
+      //   :hover{
+      //     transform: scale(1.5);
+
+      //   }
+    }
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    overflow: auto;
+    height: 16rem;
+    width: 100%;
+  }
+  li {
+    list-style-type: none;
+
+    height: 100%;
+    list-style-type: none;
+  }
+}
